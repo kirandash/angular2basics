@@ -19,6 +19,12 @@ environment variables.
 main.ts- starts the angular app
 styles.css - global style rules for entire app
 
+Install typekit globally
+npm install typescript -g
+
+# How Angular works
+First main.ts runs which bootstraps AppModule from app.module.ts which includes app.component.ts and thus app.component.ts becomes the default ts file to run
+
 # Angular2basics
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
