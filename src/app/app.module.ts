@@ -5,16 +5,19 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+// NgModule decorator imported from angular core
 @NgModule({
+  // tells which directives or components to be used
   declarations: [
     AppComponent
   ],
+  // Modules imported
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
+    BrowserModule, // has basic features like built in directives etc.
+    FormsModule, // form related fields
+    HttpModule // for http access
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [],// application wide services
+  bootstrap: [AppComponent] // the default component for our application
 })
 export class AppModule { }
