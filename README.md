@@ -1,4 +1,23 @@
-#
+# Angular 2 Project Installation with angular-cli
+Install node latest version > 6.4
+npm install -g angular-cli
+ng new angular2basics
+cd angular2basics
+ng server
+
+# Project structure
+e2e - folder for end to end testing
+
+app-
+app.component.spec.ts - spec file for unit testing
+app.module.ts - a bundle telling angular what to use in the app
+app.components.css - css for only that component
+
+envirmonents-
+environment variables.
+
+main.ts- starts the angular app
+styles.css - global style rules for entire app
 
 # Angular2basics
 
