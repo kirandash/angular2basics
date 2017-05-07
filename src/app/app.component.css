@@ -1,0 +1,4 @@
+/* Will apply only to components in app.component.ts */
+h1 {
+	color: red;
+}

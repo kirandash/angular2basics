@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { OtherComponent } from './other/other.component'; // Include the component for other selector
 
 // NgModule decorator imported from angular core
 @NgModule({
   // tells which directives or components to be used
   declarations: [
-    AppComponent
+    AppComponent,
+    OtherComponent // Include all the components to be used
   ],
   // Modules imported
   imports: [
@@ -18,6 +20,6 @@ import { AppComponent } from './app.component';
     HttpModule // for http access
   ],
   providers: [],// application wide services
-  bootstrap: [AppComponent] // the default component for our application
+  bootstrap: [AppComponent] // the default component for our application to bootstrap when initialized
 })
 export class AppModule { }
