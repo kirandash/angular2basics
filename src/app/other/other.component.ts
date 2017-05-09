@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-other',
+  selector: 'app-other', // must be unique - make sure not to override default html tags
   templateUrl: './other.component.html',
   styleUrls: ['./other.component.css']
 })

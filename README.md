@@ -27,6 +27,9 @@ First main.ts runs which bootstraps AppModule from app.module.ts which includes 
 
 # Create component
 ng generate component other
+not create a folder(flat) and use inline styles and template
+ng g c another --flat --inline-styles --inline-template
+ng g c another --flat -is -it
 
 # Angular2basics
 
