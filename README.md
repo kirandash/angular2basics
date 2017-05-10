@@ -31,6 +31,12 @@ not create a folder(flat) and use inline styles and template
 ng g c another --flat --inline-styles --inline-template
 ng g c another --flat -is -it
 
+# view encapsulation and shadow html
+This can be turned off. This is what defines how css is applied to different components in angular 2
+h1[_ngcontent-qpq-0] {
+    color: red;
+}
+
 # Angular2basics
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
