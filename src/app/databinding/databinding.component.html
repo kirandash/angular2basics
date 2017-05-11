@@ -1,4 +1,11 @@
+<h1>String Interpolation</h1>
 <p>
   {{stringInterpolation}} <br>
   {{numberInterpolation}}
 </p>
+<h1>Property binding</h1>
+<input type="text" value="{{stringInterpolation}}">
+<input type="text" [value]="stringInterpolation"><!-- DOM Property binding -->
+<p [ngClass]="{redBorder: true}">Directive binding</p>
+<p [ngClass]="{redBorder: onTest()}">Directive binding</p>
+<p [ngStyle]="{color: 'green'}">Directive binding</p>

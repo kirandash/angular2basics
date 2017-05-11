@@ -45,6 +45,11 @@ Two way data binding - property + event binding e.g. <input [(ngModel)] = "bound
 
 ng g c databinding
 
+Property binding - 1. DOM properties: src, click, 2. Directive properties: ngClass, ngSubmit 3. Component properties: initObj, rndEvent
+
+Bindings: 1. Property binding: @Input propName: string;
+2. Event binding: @Output() eventName = new EventEmitter();
+
 # Angular2basics
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
