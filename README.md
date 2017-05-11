@@ -37,6 +37,14 @@ h1[_ngcontent-qpq-0] {
     color: red;
 }
 
+# Data binding
+String interpolation e.g. {{ expression resolves to a string }}
+Property binding e.g. <button [disabled]="expression">
+Event binding e.g. <button (click)="expression handling the event">
+Two way data binding - property + event binding e.g. <input [(ngModel)] = "bound model (e.g. object)">
+
+ng g c databinding
+
 # Angular2basics
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.

@@ -5,7 +5,8 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { OtherComponent } from './other/other.component';
-import { AnotherComponent } from './another.component'; // Include the component for other selector
+import { AnotherComponent } from './another.component';
+import { DatabindingComponent } from './databinding/databinding.component'; // Include the component for other selector
 
 // NgModule decorator imported from angular core
 @NgModule({
@@ -13,7 +14,8 @@ import { AnotherComponent } from './another.component'; // Include the component
   declarations: [
     AppComponent,
     OtherComponent,
-    AnotherComponent // Include all the components to be used
+    AnotherComponent,
+    DatabindingComponent // Include all the components to be used
   ],
   // Modules imported
   imports: [
