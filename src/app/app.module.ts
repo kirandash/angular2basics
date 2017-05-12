@@ -6,7 +6,9 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { OtherComponent } from './other/other.component';
 import { AnotherComponent } from './another.component';
-import { DatabindingComponent } from './databinding/databinding.component'; // Include the component for other selector
+import { DatabindingComponent } from './databinding/databinding.component';
+import { PropertyBindingComponent } from './databinding/property-binding.component';
+import { EventBindingComponent } from './databinding/event-binding.component'; // Include the component for other selector
 
 // NgModule decorator imported from angular core
 @NgModule({
@@ -15,7 +17,9 @@ import { DatabindingComponent } from './databinding/databinding.component'; // I
     AppComponent,
     OtherComponent,
     AnotherComponent,
-    DatabindingComponent // Include all the components to be used
+    DatabindingComponent,
+    PropertyBindingComponent,
+    EventBindingComponent // Include all the components to be used
   ],
   // Modules imported
   imports: [

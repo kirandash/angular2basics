@@ -49,6 +49,7 @@ Property binding - 1. DOM properties: src, click, 2. Directive properties: ngCla
 
 Bindings: 1. Property binding: @Input propName: string;
 2. Event binding: @Output() eventName = new EventEmitter();
+ng g c property-binding --flat -it -is
 
 # Angular2basics
 
