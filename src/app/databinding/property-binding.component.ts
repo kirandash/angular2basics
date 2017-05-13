@@ -5,8 +5,10 @@ import { Component, Input } from '@angular/core';
   template: `
     {{result}}
   `,
-  styles: []
+  styles: [],
+  inputs: ['result']
 })
 export class PropertyBindingComponent {
-  @Input() result: number = 0; // By adding @Input, this property can also be set outside of the bound of this component - from databinding,component.html
+  //@Input() result: number = 0; // By adding @Input, this property can also be set outside of the bound of this component - from databinding,component.html
+  result: number = 0; // not recommended
 }
