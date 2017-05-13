@@ -50,6 +50,20 @@ Property binding - 1. DOM properties: src, click, 2. Directive properties: ngCla
 Bindings: 1. Property binding: @Input propName: string;
 2. Event binding: @Output() eventName = new EventEmitter();
 ng g c property-binding --flat -it -is
+ng g c two-way-binding --flat -it -is
+
+3. Two way binding:
+[(ngModel)]="person.age"
+
+# Life cycle hooks
+a. ngOnChanges - before b. and when data-bound property value changes
+b. ngOnInit - On compoment initialization, after first ngOnChanges
+c. ngDoCheck - During every angular 2 change detection cycle
+d. ngAfterContentInit - After inserting content
+e. ngAfterContentChecked - After every check of inserted content
+f. ngAfterViewInit - After initializing the component's views/child views
+g. ngAfterViewChecked - After every check of the component's views/child views
+h. ngOnDestroy - Just before the angular 2 destroys the directive/component
 
 # Angular2basics
 
